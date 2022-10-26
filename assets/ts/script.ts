@@ -16,8 +16,7 @@ class MotherAccount {
 }
 let Gina = new MotherAccount();
 Gina.versamento(20);
-
-Gina.prelievo(10);
+Gina.prelievo(15);
 Gina.saldo();
 
 class SonAccount extends MotherAccount {}
